@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Section 2 - MEDPL150</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-hws.css">
+</head>
+<body>
+
+<h1 class="title">Section 2</h1>
+<h2 class="subtitle">Student websites:</h2>
+  <ul class="links">
+    <li>Kayden Cruz --&nbsp;<a href="https://medpl-150-kayden-cruz.glitch.me/" target="_blank">website</a></li>
+    <li>Aidan Hailey --&nbsp;<a href="https://aidanhailey-medpl150.glitch.me/" target="_blank">website</a></li>
+    <li>Mckeilla Malabunga --&nbsp;<a href="https://mckeilla-malabunga-medpl150.glitch.me" target="_blank">website</a></li>
+    <li>Maya Pellitteri --&nbsp;<a href="https://homework-1-medpl150.glitch.me/" target="_blank">website</a></li>
+    <li>Ethan Velez --&nbsp;<a href="">website</a></li>
+
+  </ul>
+  
+   <div class="end-space"</div>
+  
+</body>
+   <script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.body.insertAdjacentHTML('afterbegin', data));
+</script>
+</html>

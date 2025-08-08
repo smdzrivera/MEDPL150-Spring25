@@ -1,0 +1,74 @@
+body. {
+  background-color: black;
+  color: white;
+}
+
+.container. {
+  padding: 100px;
+  text-align: center;
+}
+
+.photocontainer. {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 25px 100px 100px 100px;
+}
+
+a:hover. {
+  color: yellow;
+  transition: 3s ease;
+}
+
+.headers. {
+  font-size: 50px;
+  color: tomato;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 50px;
+}
+
+
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  padding: 100px;
+  text-align: center;
+}
+
+.photocontainer {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+}
+
+.headers {
+  font-size: 50px;
+  color: tomato;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hp-button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid grey;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.hp-button:hover {
+  background-color: green;
+}
+
+a {
+  color: tomato;
+}
+
+a:hover {
+  color: gold;
+}

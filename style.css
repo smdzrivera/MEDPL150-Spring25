@@ -1,0 +1,448 @@
+/* CSS Reset */
+
+/* Remove default margin and padding from all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent font across the page */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  background-color: #f9f9f9; /* Optional background color */
+  color: #333; /* Optional text color */
+}
+
+/* Ensure anchor tags are styled consistently */
+a {
+  text-decoration: none;
+  color: inherit; /* Links inherit the color of the surrounding text */
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  width: 100%; /* Optional: sets table to take full width */
+}
+
+/* Reset input and button styles */
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Optional: focus state for accessibility */
+*:focus {
+  outline: 2px solid blue;
+}
+
+/* My CSS starts here */
+
+
+  /*General style settings */
+html {
+  height: 100%;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #000000, #301934);
+  color: #9b59b6;
+text-shadow: 0 0 1px #9b59a7, 0 0 1px #9b59a7;
+   font-family: "Share Tech Mono", serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  padding: 0 18%;
+  line-height: 1.6;
+   height: 100%;
+  background-size: cover;
+   background-attachment: fixed; /* Optional: Fixes the background in place while scrolling */
+}
+
+h1 {
+  font-size: 86px;
+ 
+}
+
+.header {
+  height: 133px;
+  margin-top: 180px;
+  text-align: center;
+}
+
+
+.header h1 {
+  margin-top: -15px;
+  color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 7px #32cd14;
+}
+
+
+h2 {
+  font-size: 24px;
+  color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 10px #32cd14;
+}
+
+h3 {
+  font-size: 20px;
+   color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 10px #32cd14;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 5%;
+  min-height: 100px;
+  margin-top: 110px;
+}
+
+.item {
+  min-width: 125px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Link settings and effects */
+
+a {
+  text-decoration: underline; /* Underline the link */
+  color: #9b59b6; /* Link color (neon purple) */
+}
+
+a:hover {
+  color: #32CD32; /* Darker shade for hover effect */
+  text-shadow: 0 0 10px rgba(155, 89, 182, 1), 0 0 25px rgba(155, 89, 182, 0.8); /* Enhanced glow on hover */
+}
+
+/* Page specific settings */
+
+.class-hours {
+  padding-top: 15px;
+}
+
+.class-hours li {
+  font-size: 18px;
+}
+
+.spacing2 {
+  padding-top: 15px;
+}
+
+.syllabus-button {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.backups-button {
+  width: 100%;
+  height: 50px;
+}
+
+.img {
+  max-width: 300px; /* Ensure the image doesn't exceed its container */
+  min-width: 200px;
+  min-height: 150px;
+  margin: 0 auto;
+  background-image: url(https://cdn.glitch.global/c08bea57-fa58-412d-be44-019627af12a6/malavista_3-ezgif.com-optimize.gif?v=1737831913726);
+  background-size: cover;
+  background-position: center;
+  padding: 0 10%;
+  border-radius: 5px; /* Optional, if you want rounded corners */
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.8); /* Glow effect */
+   opacity: 0.8;
+   filter: contrast(1.5) brightness(1.2); /* Adds a slight "textured" feel */
+
+}
+
+.item p {
+  max-width: 90%; /* Limit text width to 90% of the parent item */
+  margin: 0 auto; /* Center-align the text within the item */
+  line-height: 1.6; /* Improve readability */
+  word-wrap: break-word; /* Ensure long words don’t overflow */
+}
+
+.hw-container {
+  height: 320px;
+  padding: 0 20%;
+  margin-top: 110px;
+}
+
+.hw-title {
+  text-align: center;
+  padding-bottom: 13px;
+  width: 100%;
+  color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 10px #32cd14;
+  justify-content: center;
+}
+
+ol li::marker {
+    color: #32cd32;
+}
+
+.hw-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.due-date {
+  padding-bottom: 50px;
+}
+
+.gallery {
+  display: inline-block;
+  border: 1px solid hsl(0%, 0%, 60%);
+  margin: 5px;
+  width: 200px;
+}
+
+.gallery:hover {
+  border: 4px solid #32CD32;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+.hw1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 2.8;
+  font-size: 18px;
+}
+
+.hw1 li {
+  font-size: 18px;
+}
+
+.hw2 li {
+  font-size: 18px;
+}
+
+.hw2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 2.8;
+}
+
+.resources-button {
+  margin-top: 13px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.op-button {
+  padding-top: 10px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.class-web-info {
+}
+
+
+.class-web-info h3 {
+   color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 10px #32cd14;
+}
+
+.web {
+  margin-top: 13px;
+}
+
+.website-buttons {
+  margin-top: 13px;
+  height: 50px;
+  align-items: center;
+  padding: 0 10%;
+  line-height: 1.3;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.class-web-info {
+  text-align: center;
+  height: 200px;
+  margin-top: 100px;
+
+}
+
+
+
+.footer {
+  text-align: center;
+  height: 300px;
+}
+
+.footer h3 {
+  color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 10px #32cd14;
+  margin-bottom:13px;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.subtitle h2 {
+  margin-top: 20px;
+}
+.end-space {
+  width: 100%;
+  min-height: 200px;
+}
+
+/* Header Style */
+
+.header-container {
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.header-container a {
+  color: #32cd32;
+  text-decoration: none;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  flex: 1;
+}
+
+.one-drive .resources {
+  flex: 1;
+}
+
+.home-button {
+  border-style: solid;
+  padding: 5px;
+}
+
+.opt  {
+  border-style: solid;
+  border-margin: 2px;
+  padding: 5px;
+}
+
+/* Media Queries for smaller screens */
+
+@media (max-width: 700px) {
+  
+  body {
+    padding: 0 3%; /* Reduce padding slightly for smaller screens */
+  }
+  
+  .container {
+    height: auto;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between;
+  }
+
+  .item:nth-child(1) {
+    width: 53%;
+  }
+  
+  .item:nth-child(2) {
+    width: 45%; /* Adjusts width of the first two items to be side by side */
+  }
+
+  .item:nth-child(3) {
+    width: 80%; /* Makes the third item take up the full width, stacking it below */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .resources-button {
+  margin-top: 50px;
+    align-items: center;
+}
+  
+  .footer {
+    height: 200px;
+  }
+  }
+
+
+
+.hw-container {
+  padding: 0 5%;
+}
+
+
+
+/* Media Queries for larger screens*/
+
+@media (min-width: 1024px) {
+  body{
+    padding: 0 5%;
+  }  
+
+  .container {
+    width: 100%;
+    padding: 0 5%; /* Specific padding for flex containers */
+  }
+
+  .container2 {
+    padding: 0 5%; /* Specific padding for flex containers */
+  }
+
+  .item:nth-child(3) {
+    width: 33%; /* Makes the third item take up the full width, stacking it below */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .primer {
+    margin-top: 250px;
+  }
+
+  .img {
+    width: 80%; /* Use the original full width on larger screens */
+    margin-top: 0 auto;
+  }
+}
+
+.website-buttons {
+  padding: 0 25%;
+}
+
+

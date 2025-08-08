@@ -1,0 +1,51 @@
+/* CSS Reset */
+
+/* Remove default margin and padding from all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent font across the page */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  background-color: #f9f9f9; /* Optional background color */
+  color: #333; /* Optional text color */
+}
+
+/* Ensure anchor tags are styled consistently */
+a {
+  text-decoration: none;
+  color: inherit; /* Links inherit the color of the surrounding text */
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  width: 100%; /* Optional: sets table to take full width */
+}
+
+/* Reset input and button styles */
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Optional: focus state for accessibility */
+*:focus {
+  outline: 2px solid blue;
+}
+

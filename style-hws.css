@@ -1,0 +1,95 @@
+body {
+  line-height: 2;
+  font-size: 18px;
+  padding: 0 20%;
+  height: 100%;
+}
+
+.links li {
+  font-size: 18px;
+}
+
+ol li {
+  font-size: 18px;
+  list-style-type: number;
+  list-style-position: inside;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 13px;
+  text-align: center;
+}
+
+.due-date {
+  margin-top: 4px;
+  text-align: center;
+}
+
+.instructions {
+  margin-top: 50px;
+  padding: 0 20%;
+}
+
+.example {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.useful-links {
+  margin-top: 50px;
+  font-size:24px;
+  padding: 0 20%;
+  text-align: center;
+}
+
+.links {
+  font-size: 24px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+li {list-style-type: square;
+  list-style-position: inside;}
+
+.green-link {
+  color: #32cd32;
+  text-shadow: 0 0 1px #32cd14, 0 0 10px #32cd14
+} 
+
+.emphasis {
+  color: #32cd32;
+} 
+
+/* Style for the slides container */
+.slides {
+  width: 100%; /* Make the div take up the full width of the screen */
+  padding: 0 20%; /* 0 padding on top/bottom, 20% on left/right */
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+/* Style for the images inside the slides */
+.slides img {
+  width: 100%; /* Make the image fill the width of its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  display: block; /* Remove extra space below the image */
+}
+
+/* Media Queries for smaller screens */
+
+@media (max-width: 700px) {
+  
+  body {
+    padding: 0 5%;
+  }
+  
+  .instructions {
+    padding: 0 5%;
+  }
+  
+ 
